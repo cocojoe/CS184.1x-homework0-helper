@@ -38,6 +38,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B151BB31647EF4400986360 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
 		5B9490961647D695009E1020 /* homework0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homework0; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B94909C1647D695009E1020 /* homework0.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = homework0.1; sourceTree = "<group>"; };
 		5B9490A31647D7A1009E1020 /* geometry3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geometry3.h; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		5B9490991647D695009E1020 /* homework0 */ = {
 			isa = PBXGroup;
 			children = (
+				5B151BB31647EF4400986360 /* Readme.md */,
 				5B9490A31647D7A1009E1020 /* geometry3.h */,
 				5B9490A41647D7A1009E1020 /* include */,
 				5B9490AE1647D7A1009E1020 /* main.cpp */,
