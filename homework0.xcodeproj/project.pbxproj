@@ -25,8 +25,8 @@
 		5B9490941647D695009E1020 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = shaders;
-			dstSubfolderSpec = 7;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
 				5BF055D01647E1F500139213 /* light.frag.glsl in CopyFiles */,
 				5BF055D11647E1F500139213 /* light.vert.glsl in CopyFiles */,
@@ -294,6 +294,7 @@
 					"$(inherited)",
 					"APPLE=1",
 				);
+				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/homework0/lib/mac\"",
@@ -307,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "APPLE=1";
+				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/homework0/lib/mac\"",
