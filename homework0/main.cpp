@@ -338,8 +338,8 @@ void init (void)
 	// vertexshader = initshaders(GL_VERTEX_SHADER, "shaders/tex.vert") ;
 	// fragmentshader = initshaders(GL_FRAGMENT_SHADER, "shaders/tex.frag") ;
 
-	vertexshader = initshaders(GL_VERTEX_SHADER, "shaders/light.vert.glsl") ;
-	fragmentshader = initshaders(GL_FRAGMENT_SHADER, "shaders/light.frag.glsl") ;
+	vertexshader = initshaders(GL_VERTEX_SHADER, "light.vert.glsl") ;
+	fragmentshader = initshaders(GL_FRAGMENT_SHADER, "light.frag.glsl") ;
 	GLuint program = glCreateProgram() ;
 	shaderprogram = initprogram(vertexshader, fragmentshader) ;
 	GLint linked;

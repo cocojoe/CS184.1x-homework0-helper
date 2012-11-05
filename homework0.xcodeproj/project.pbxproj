@@ -189,6 +189,7 @@
 				5B9490921647D695009E1020 /* Sources */,
 				5B9490931647D695009E1020 /* Frameworks */,
 				5B9490941647D695009E1020 /* CopyFiles */,
+				5BA1C49B1648600C0032D799 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -223,6 +224,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BA1C49B1648600C0032D799 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "open $TARGET_BUILD_DIR";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B9490921647D695009E1020 /* Sources */ = {
@@ -294,7 +311,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
 					"APPLE=1",
 				);
